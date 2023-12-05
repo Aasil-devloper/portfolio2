@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        /* .left {
+            display: inline-block;
+            font-size: 50px;
+        } */
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 150px;
+            /* background-color: grey; */
+            background-color: #4f74a0;
+
+        }
+
+        nav ul {
+            justify-content: center;
+            display: flex;
+
+        }
+
+        nav ul li {
+            /* bullets htane k liye  list-style: none; krdena */
+            list-style: none;
+            margin: 10px 63px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: solid;
+            font-size: 60px;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover,
+        nav ul li a:active {
+            color: aliceblue;
+            font-size: 1.6rem;
+
+
+        }
+
+        .left {
+            font-size: 2em;
+            color: black;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 400px 0px;
+
+        }
+
+        .firstsection div {
+            width: 40%;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            font-size: 3rem;
+            margin: 750px 0px;
+        }
+
+        .rightsection {
+            /* background-color: red; */
+        }
+
+        .rightsection img {
+            /* background-color: red; */
+
+            width: 100%;
+            height: 1700px;
+            margin: 50px 0px;
+        }
+
+        .purple {
+            /* color: grey; */
+           color:  #4f74a0;
+            font-size: 3.5rem;
+            font-family: cursive;
+        }
+
+        .wb {
+            /* color: grey; */
+            color:  #4f74a0;
+            font-size: 3.5rem;
+            font-family: cursive;
+        }
+
+        #element {
+            font-size: 3.5rem;
+            /* color: grey; */
+            color:  #4f74a0;
+            font-size: 3.5rem;
+            font-family: cursive;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 4rem;
+        }
+
+        .secondsection .box {
+            background-color: aliceblue;
+            width: 88vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+
+        }
+
+        main hr {
+            border: 0;
+            background-color: grey;
+            margin: 48px 184px;
+            height: 2px;
+
+        }
+
+        .textgray {
+            color: gray;
+        }
+
+        .secondsection .vertical {
+            background-color: white;
+            height: 93px;
+            width: 1px;
+            margin: 0 528px;
+
+        }
+
+        .imagetop {
+
+            width: 80px;
+            position: relative;
+            top: -80px;
+            left: -22px;
+        }
+
+        .verticaltext {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            margin: 2px 2px;
+            padding: 2px 2px;
+
+        }
+
+        .verticaldesc {
+            position: relative;
+            top: 86px;
+            width: 460px;
+            color: grey;
+            color:  #4f74a0;
+            font-size: 39px;
+
+        }
+        footer{
+            /* background-color: rgb(72, 72, 84); */
+            /* height: 233px; */
+            background-color: #4f74a0;
+
+        }
+        .footer{
+         display: flex;
+            margin: 23px 300px;
+            justify-content: space-evenly;
+            padding: 70px 20px;
+}
+        
+        .footer ul{
+         /* display: flex; */
+         list-style: none;
+       
+        }
+        .footer div{
+            width: 223px
+        }
+    .footerrights
+{
+    text-align: center;
+    color: darkgray;
+
+    
+    padding: 12px 0;
+
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aasil's Portfolio</div>
+
+
+
+
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="firstsection">
+
+            <div class="leftsection">Hi, My Name is <span class="purple">Aasil Hasan</span> <br>
+                I am a passionate
+                <!-- <span class="wb">Web Developer. </span> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="—Pngtree—programmer it developer_13520485.png" alt="Remote"></div>
+
+
+        </section>
+        <hr>
+
+
+        <section class="secondsection">
+
+            <span class="textgray">What I Have Done so Far </span>
+            <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img  class="imagetop" src="html5-logo-31814.png" alt="">
+                    <div class="verticaltext">Web Development</div>
+                    <div class="verticaldesc">I have been a learning Web Developer since 2022. I have created many mini projects using HTML,CSS & JS. </div>
+                </div>
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+
+
+
+
+
+                <div class="vertical">
+                    <img  class="imagetop" src="amu logo.png" alt="">
+                    <div class="verticaltext">CSEC AMU</div>
+                    <div class="verticaldesc">I have been the marketing and designing side of Cultural Educational Center, AMU.</div>
+                </div>
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+                <div class="vertical">
+                    <img  class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltext">Technical</div>
+                    <div class="verticaldesc">I have been doing various technical certificate, majorly in the field of Statistics and Data Science which equiped me with diverse technologies used in this field.</div>
+                </div>
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+                <div class="vertical">
+                    <img  class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltext">Management</div>
+                    <div class="verticaldesc">I have organised and managed various events that has happened in my University</div>
+                </div>
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+
+
+
+
+                <!-- <div class="vertical">
+                    <img  class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltext">HTML Developer 2010-2014</div>
+                    <div class="verticaldesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae earum
+                        odit aspernatur laboriosam obcaecati asperiores quisquam cumque dignissimos commodi! Magni iusto
+                        aperiam quasi necessitatibus voluptates aliquam deserunt officiis. Officia!</div>
+                </div> -->
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+
+
+
+
+                <!-- <div class="vertical">
+                    <img  class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltext">HTML Developer 2010-2014</div>
+                    <div class="verticaldesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae earum
+                        odit aspernatur laboriosam obcaecati asperiores quisquam cumque dignissimos commodi! Magni iusto
+                        aperiam quasi necessitatibus voluptates aliquam deserunt officiis. Officia!</div>
+                </div> -->
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+
+
+
+                <!-- <div class="vertical">
+                    <img  class="imagetop" src="developer.png" alt="">
+                    <div class="verticaltext">HTML Developer 2010-2014</div>
+                    <div class="verticaldesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae earum
+                        odit aspernatur laboriosam obcaecati asperiores quisquam cumque dignissimos commodi! Magni iusto
+                        aperiam quasi necessitatibus voluptates aliquam deserunt officiis. Officia!</div>
+                </div> -->
+                <!-- <div class="vertical">Nodejs Developer</div>
+                <div class="vertical"></div>
+                <div class="vertical"></div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div  class="footer">
+        <div class="footerfirst"><h3>Aasil Developer's Portfolio</h3></div>
+        <div class="footersecond">
+            <ul>
+                <li>Home</li>
+                <!-- <li>About</li>
+                <li>Contact</li>
+                <li>Help</li> -->
+            </ul>
+        </div>
+        <div class="footerthird">  <ul>
+            <!-- <li>Home</li> -->
+            <li>About</li>
+            <!-- <li>Contact</li>
+            <li>Help</li> -->
+        </ul></div>
+        <div class="footerforth">  <ul>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+            <li>Contact</li>
+            <!-- <li>Help</li> -->
+        </ul></div>
+        <div class="footerfifth">  <ul>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+            <li>Help</li>
+            <!-- <li>Help</li> -->
+        </ul></div>
+    </div>
+    <div class="footerrights"> www.aasilsposrtfolio.com || All Right Reserved <br>copyright© </div>
+    </footer>
+
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Data Analyst.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
